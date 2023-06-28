@@ -4,8 +4,8 @@ import ButtonWelcome from "./ButtonWelcome"
 export default function Welcome() {
   return (
     <div className="flex h-screen justify-center items-center flex-col">
-        <h1 className="text-white text-3xl mb-3 text-center md:m-10 md:text-5xl lg:m-0">
-          Your favorite comic book store
+        <h1 className="text-white text-3xl mb-3 text-center font-bold md:m-10 md:text-5xl lg:m-0">
+          Your favorite comic book store ✨
         </h1>
         <p className="text-white text-sm p-2 text-center md:text-xl lg:hidden">
           From classics to novelties, we have everything you need to immerse
