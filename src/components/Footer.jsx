@@ -6,7 +6,7 @@ export default function Footer() {
       <div>
         <img
           className="rounded-[0px_0px_50%_50%]"
-          src="./src/assets/images/gohanvidel.png"
+          src="./public/gohanvidel.png"
           alt="gohan videl goten trunks"
         />
       </div>
@@ -25,29 +25,29 @@ export default function Footer() {
 
         <img
           className="h-9 m-5 md:h-14"
-          src="/src/assets/images/minga.png"
+          src="/public/minga.png"
           alt="full_minga_logo"
         />
         <div className="flex flex-col items-center">
           <div className="flex ">
             <img
               className="h-6 w-6 m-3 md:h-8 md:w-8"
-              src="/src/assets/images/icon_contact/facebook-black.png"
+              src="/public/iconos/facebook-black.png"
               alt="facebook_icon"
             />
             <img
               className="h-6 w-6 m-3 md:h-8 md:w-8"
-              src="/src/assets/images/icon_contact/twitter-black.png"
+              src="/public/iconos/twitter-black.png"
               alt="twitter_icon"
             />
             <img
               className="h-6 w-6 m-3 md:h-8 md:w-8"
-              src="/src/assets/images/icon_contact/vimeo-black.png"
+              src="/public/iconos/vimeo-black.png"
               alt="vimeo_icon"
             />
             <img
               className="h-6 w-6 m-3 md:h-8 md:w-8"
-              src="/src/assets/images/icon_contact/youtube-black.png"
+              src="/public/iconos/youtube-black.png"
               alt="youtube_icon"
             />
           </div>
@@ -59,7 +59,7 @@ export default function Footer() {
               <p className="text-white">Donate</p>
               <img
                 className="h-5 w-5"
-                src="/src/assets/images/heart.png"
+                src="/public/heart.png"
                 alt="heart_icon"
               />
             </a>
