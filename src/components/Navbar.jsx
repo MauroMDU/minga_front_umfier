@@ -33,13 +33,11 @@ const Navbar = () => {
         </div>
       </div>
       <div
-        className={`fixed right-0 top-0 h-screen w-1/2 bg-gray-900 transition-opacity duration-300 ease-in-out ${
-          isOpen ? "opacity-100" : "opacity-0"
+        className={`fixed right-0 top-0 h-screen w-[14rem] bg-gray-900 transition-translate duration-300 ease-in-out ${
+          isOpen ? "translate-x-0" : "translate-x-[100%]"
         }`}
       >
-        <div className="max-w-7xl px-4 sm:px-6 lg:px-8">
-          {/* Add your drawer content here */}
-        </div>
+        <div className="max-w-7xl px-4 sm:px-6 lg:px-8"></div>
       </div>
     </nav>
   );

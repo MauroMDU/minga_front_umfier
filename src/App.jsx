@@ -9,7 +9,6 @@ export default function App() {
       <Welcome/>
       <Index/>
       <Carousel/>
-
     </Main>
     </>
   );
